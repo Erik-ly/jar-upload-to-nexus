@@ -20,11 +20,9 @@ public class UploadJarToNexus {
 
         List<PomInfo> jarUploadSucList = new ArrayList<PomInfo>();
         List<PomInfo> jarUploadFailList = new ArrayList<PomInfo>();
-
         List<PomInfo> analyzePomFailList = new ArrayList<PomInfo>();
 
         String startTime = DateUtil.getNowDate();
-
 
         String folderPath = "C:\\Users\\Erik\\Desktop\\testJar";
         String repositoryId = "jarUploadTest";
@@ -36,13 +34,19 @@ public class UploadJarToNexus {
 
         List<String> fileList = FileScanner.getFiles(folderPath);
 
+        //识别操作系统
+        String osName = System.getProperty("os.name");
+        logger.info("该操作系统是：{}", osName);
+
         for (String pomFile : fileList) {
             PomInfo pomInfo = AnalyzePom.getPomInfo(pomFile);
 
             logger.info("pomFile:{} groupId:{} ArtifactId:{} Version:{}", pomInfo.getPomFile(), pomInfo.getGroupId(), pomInfo.getArtifactId(), pomInfo.getVersion());
 
             if (pomInfo.isStatus()){
-                boolean uploadJarResult = UploadJar.uploadJar(pomInfo, repositoryId, url);
+
+                //上传 jar 包
+                boolean uploadJarResult = UploadJar.uploadJar(osName, pomInfo, repositoryId, url);
                 if (uploadJarResult){
                     jarUploadSucList.add(pomInfo);
                 }else {

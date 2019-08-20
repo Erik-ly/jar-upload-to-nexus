@@ -15,14 +15,21 @@ public class UploadJar {
 
     private static Logger logger = LoggerFactory.getLogger(UploadJar.class);
 
-    public static boolean uploadJar(PomInfo pomInfo,String repositoryId, String url){
+    public static boolean uploadJar(String osName, PomInfo pomInfo,String repositoryId, String url){
 
         boolean uploadStatus = false;
 
         String pomFile = pomInfo.getPomFile();
         String jarFilePath = pomFile.substring(0,pomFile.lastIndexOf("."))+ ".jar";
 
-        String installStr = "cmd /c mvn deploy:deploy-file " +
+        String mvnHead = null;
+        if (osName.startsWith("Windows")){
+            mvnHead = "cmd /c mvn deploy:deploy-file "; //结尾带空格
+        }else {
+            mvnHead = "mvn deploy:deploy-file "; //结尾带空格
+        }
+
+        String installStr = mvnHead +
                 "-Dfile=" + jarFilePath +
                 " -DgroupId=" + pomInfo.getGroupId() +
                 " -DartifactId=" + pomInfo.getArtifactId() +
@@ -52,8 +59,8 @@ public class UploadJar {
                     uploadStatus = true;
                 }
 
-                System.out.println("result=========" + result);
-                System.out.println("\n\n=====================over=================================\n\n");
+                logger.info("result========={}", result);
+
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
