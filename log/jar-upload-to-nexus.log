@@ -1,0 +1,59 @@
+[INFO ] 2019-08-20 15:35:15,426 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.pom groupId:commons-validator ArtifactId:commons-validator Version:1.3.1
+[INFO ] 2019-08-20 15:35:15,442 method:UploadJar.uploadJar(UploadJar.java:33)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar -DgroupId=commons-validator -DartifactId=commons-validator -Dversion=1.3.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 15:35:21,769 method:UploadJarToNexus.main(UploadJarToNexus.java:59)
+==========统计信息==========
+ 开始时间 :2019-08-20 03:35:15
+ 结束时间 :2019-08-20 03:35:21
+ 共扫描到 1 个 pom 文件
+ 解析成功 1 个 pom 文件
+ 解析失败 0 个 pom 文件
+ 上传成功 1 个 jar 包
+ 上传失败 0 个 jar 包
+[INFO ] 2019-08-20 15:35:21,769 method:UploadJarToNexus.main(UploadJarToNexus.java:77)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-20 15:35:21,769 method:UploadJarToNexus.main(UploadJarToNexus.java:82)
+==========上传 jar 包失败列表==========
+[INFO ] 2019-08-20 15:44:31,698 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.1\dom4j-1.1.pom groupId:dom4j ArtifactId:dom4j Version:1.1
+[INFO ] 2019-08-20 15:44:31,698 method:UploadJar.uploadJar(UploadJar.java:34)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.1\dom4j-1.1.jar -DgroupId=dom4j -DartifactId=dom4j -Dversion=1.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 15:44:40,461 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.6.1\dom4j-1.6.1.pom groupId:dom4j ArtifactId:dom4j Version:1.6.1
+[INFO ] 2019-08-20 15:44:40,461 method:UploadJar.uploadJar(UploadJar.java:34)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar -DgroupId=dom4j -DartifactId=dom4j -Dversion=1.6.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 15:44:47,925 method:UploadJarToNexus.main(UploadJarToNexus.java:59)
+==========统计信息==========
+ 开始时间 :2019-08-20 03:44:31
+ 结束时间 :2019-08-20 03:44:47
+ 共扫描到 2 个 pom 文件
+ 解析成功 2 个 pom 文件
+ 解析失败 0 个 pom 文件
+ 上传成功 2 个 jar 包
+ 上传失败 0 个 jar 包
+[INFO ] 2019-08-20 15:44:47,925 method:UploadJarToNexus.main(UploadJarToNexus.java:77)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-20 15:44:47,925 method:UploadJarToNexus.main(UploadJarToNexus.java:82)
+==========上传 jar 包失败列表==========
+[INFO ] 2019-08-20 15:45:15,176 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.1\dom4j-1.1.pom groupId:dom4j ArtifactId:dom4j Version:1.1
+[INFO ] 2019-08-20 15:45:15,192 method:UploadJar.uploadJar(UploadJar.java:34)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.1\dom4j-1.1.jar -DgroupId=dom4j -DartifactId=dom4j -Dversion=1.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 15:45:24,454 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.6.1\dom4j-1.6.1.pom groupId:dom4j ArtifactId:dom4j Version:1.6.1
+[INFO ] 2019-08-20 15:45:24,454 method:UploadJar.uploadJar(UploadJar.java:34)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar -DgroupId=dom4j -DartifactId=dom4j -Dversion=1.6.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 15:45:31,008 method:UploadJarToNexus.main(UploadJarToNexus.java:59)
+==========统计信息==========
+ 开始时间 :2019-08-20 03:45:14
+ 结束时间 :2019-08-20 03:45:31
+ 共扫描到 2 个 pom 文件
+ 解析成功 2 个 pom 文件
+ 解析失败 0 个 pom 文件
+ 上传成功 2 个 jar 包
+ 上传失败 0 个 jar 包
+[INFO ] 2019-08-20 15:45:31,008 method:UploadJarToNexus.main(UploadJarToNexus.java:77)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-20 15:45:31,008 method:UploadJarToNexus.main(UploadJarToNexus.java:82)
+==========上传 jar 包失败列表==========
