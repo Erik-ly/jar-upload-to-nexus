@@ -22,7 +22,9 @@ jar-upload-to-nexus为一种批量上传jar包到nexus 服务器的方法
 ### 上传 jar 包
 `java -jar jar-upload-to-nexus-1.0-SNAPSHOT.jar folderPath repositoryId url`，
 
-其中，`folderPath`为将要上传的 jar 包的绝对路径，`repositoryId`为  repository 库的名字，`url`为  repository 的 URL。
+- `folderPath`为将要上传的 jar 包的绝对路径，但不能为 `.m2` 中的文件夹，如果上传本地 `.m2` 中的 jar 包，需要将该文件夹拷贝到普通文件夹中
+- `repositoryId`为  repository 库的名字
+- `url`为  repository 的 URL
 
 例如，需要将目录`C:\Users\Erik\Desktop\testJar`中的所有 jar 包上传到 `settings.xml` 文件中所设置的 `jarUploadTest` 中，则完整的命令为：
 
