@@ -24,13 +24,13 @@ public class UploadJarToNexus {
 
         String startTime = DateUtil.getNowDate();
 
-        String folderPath = "C:\\Users\\Erik\\Desktop\\testJar";
-        String repositoryId = "jarUploadTest";
-        String url = "http://10.180.210.148:8088/repository/jarUploadTest/";
+//        String folderPath = "C:\\Users\\Erik\\Desktop\\testJar";
+//        String repositoryId = "jarUploadTest";
+//        String url = "http://10.180.210.148:8088/repository/jarUploadTest/";
 
-//        String folderPath = args[0];
-//        String repositoryId = args[1];
-//        String url = args[2];
+        String folderPath = args[0];
+        String repositoryId = args[1];
+        String url = args[2];
 
         List<String> fileList = FileScanner.getFiles(folderPath);
 

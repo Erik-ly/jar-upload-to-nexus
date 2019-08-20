@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c6b02fdb-204e-4baa-b82d-e4b7bfe8faba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/jar-upload-to-nexus.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/jar-upload-to-nexus.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UploadJar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UploadJar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UploadJarToNexus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UploadJarToNexus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UploadJar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UploadJar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UploadJarToNexus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UploadJarToNexus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/OSCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jar-upload-to-nexus-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/jar-upload-to-nexus-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-jar-upload-to-nexus-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-jar-upload-to-nexus-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
+            <state relative-caret-position="378">
               <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
             </state>
           </provider>
@@ -53,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/UploadJarToNexus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+            <state relative-caret-position="200">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,19 +69,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/OSCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -167,10 +164,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -227,11 +224,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaruploadtonexus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaruploadtonexus" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +319,7 @@
       <workItem from="1565830855442" duration="18461000" />
       <workItem from="1565915633918" duration="1005000" />
       <workItem from="1565945685814" duration="2414000" />
-      <workItem from="1566285365588" duration="4917000" />
+      <workItem from="1566285365588" duration="6481000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1566287513458</created>
@@ -336,17 +328,30 @@
       <option name="project" value="LOCAL" />
       <updated>1566287513458</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加识别操作系统">
+      <created>1566290371414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566290371414</updated>
+    </task>
+    <task id="LOCAL-00003" summary="删除测试文件">
+      <created>1566290546174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566290546174</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26797000" />
+    <option name="totallyTimeSpent" value="28361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="848" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25970548" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -369,7 +374,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32908848" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="SciView" order="6" />
@@ -383,31 +388,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="增加识别操作系统" />
+    <MESSAGE value="删除测试文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除测试文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/bean.java" />
     <entry file="file://$PROJECT_DIR$/uploadjartonexus.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bean/PomInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/OSCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -438,7 +431,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -452,10 +445,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/OSCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UploadJarToNexus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        <state relative-caret-position="200">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
