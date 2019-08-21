@@ -27,7 +27,7 @@ public class FileScanner {
                 public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
 
                     String filePath = file.toString();
-                    if (filePath.endsWith("pom")){
+                    if (filePath.endsWith("jar")){
                         fileList.add(filePath);
                     }
 

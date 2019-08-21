@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6b02fdb-204e-4baa-b82d-e4b7bfe8faba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log/jar-upload-to-nexus.log.2019-08-20" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/jar-upload-to-nexus.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/jar-upload-to-nexus.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UploadJar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UploadJar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/jar-upload-to-nexus.log.2019-08-20" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UploadJarToNexus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UploadJarToNexus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UploadJar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UploadJar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/FileScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/FileScanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/UploadJarToNexus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UploadJarToNexus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/FileScanner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/FileScanner$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jar-upload-to-nexus-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/jar-upload-to-nexus-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-jar-upload-to-nexus-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-jar-upload-to-nexus-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -56,15 +56,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UploadJarToNexus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+            <state relative-caret-position="-89">
+              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#659#667#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log/jar-upload-to-nexus.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16249" />
           </provider>
         </entry>
       </file>
@@ -111,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/FileScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+            <state relative-caret-position="248">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -136,7 +144,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/bean/pom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/FileScanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/bean/PomInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/UploadJar.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/DateUtil.java" />
@@ -145,6 +152,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/UploadJar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/FileScanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/UploadJarToNexus.java" />
       </list>
     </option>
@@ -197,6 +205,11 @@
             <path>
               <item name="jaruploadtonexus" type="b2602c69:ProjectViewProjectNode" />
               <item name="jaruploadtonexus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaruploadtonexus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaruploadtonexus" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jaruploadtonexus" type="b2602c69:ProjectViewProjectNode" />
@@ -338,7 +351,7 @@
       <workItem from="1565915633918" duration="1005000" />
       <workItem from="1565945685814" duration="2414000" />
       <workItem from="1566285365588" duration="7723000" />
-      <workItem from="1566348431311" duration="5899000" />
+      <workItem from="1566348431311" duration="10680000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1566287513458</created>
@@ -368,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566293491091</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加本地jar包检验">
+      <created>1566354525938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566354525938</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35502000" />
+    <option name="totallyTimeSpent" value="40283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -386,7 +406,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15502793" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40642458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,7 +463,8 @@
     <MESSAGE value="增加识别操作系统" />
     <MESSAGE value="删除测试文件" />
     <MESSAGE value="重新打包" />
-    <option name="LAST_COMMIT_MESSAGE" value="重新打包" />
+    <MESSAGE value="添加本地jar包检验" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加本地jar包检验" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/bean.java" />
@@ -497,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/FileScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UploadJar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -514,14 +528,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/FileScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UploadJarToNexus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        <state relative-caret-position="-89">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#659#667#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/jar-upload-to-nexus.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16249" />
       </provider>
     </entry>
   </component>

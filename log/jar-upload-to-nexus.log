@@ -596,3 +596,76 @@ pomFile:C:\Users\Erik\Desktop\testJar\jayway\jsonpath\json-path-parent\0.8.1\jso
  只有 pom 文件没有 jar 包的有 71 个
  上传成功 73 个 jar 包
  上传失败 0 个 jar 包
+[INFO ] 2019-08-21 11:32:11,599 method:UploadJarToNexus.main(UploadJarToNexus.java:39)
+该操作系统是：Windows 10
+[INFO ] 2019-08-21 11:32:11,796 method:UploadJarToNexus.main(UploadJarToNexus.java:58)
+pomFile:C:\Users\Erik\Desktop\testJar\excalibur-component\excalibur-component\2.1\excalibur-component-2.1.pom groupId:excalibur-component ArtifactId:excalibur-component Version:2.1
+[INFO ] 2019-08-21 11:32:11,799 method:UploadJar.uploadJar(UploadJar.java:47)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\excalibur-component\excalibur-component\2.1\excalibur-component-2.1.jar -DgroupId=excalibur-component -DartifactId=excalibur-component -Dversion=2.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-21 11:32:18,695 method:UploadJar.uploadJar(UploadJar.java:68)
+result=========0
+[INFO ] 2019-08-21 11:32:18,701 method:UploadJarToNexus.main(UploadJarToNexus.java:58)
+pomFile:C:\Users\Erik\Desktop\testJar\excalibur-component\excalibur-testcase\2.1\excalibur-testcase-2.1.pom groupId:excalibur-component ArtifactId:excalibur-testcase Version:2.1
+[INFO ] 2019-08-21 11:32:18,702 method:UploadJar.uploadJar(UploadJar.java:47)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\excalibur-component\excalibur-testcase\2.1\excalibur-testcase-2.1.jar -DgroupId=excalibur-component -DartifactId=excalibur-testcase -Dversion=2.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-21 11:32:23,852 method:UploadJar.uploadJar(UploadJar.java:68)
+result=========0
+[INFO ] 2019-08-21 11:32:23,862 method:UploadJarToNexus.main(UploadJarToNexus.java:58)
+pomFile:C:\Users\Erik\Desktop\testJar\excalibur-datasource\excalibur-datasource\2.1\excalibur-datasource-2.1.pom groupId:excalibur-datasource ArtifactId:excalibur-datasource Version:2.1
+[INFO ] 2019-08-21 11:32:23,862 method:UploadJar.uploadJar(UploadJar.java:47)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\excalibur-datasource\excalibur-datasource\2.1\excalibur-datasource-2.1.jar -DgroupId=excalibur-datasource -DartifactId=excalibur-datasource -Dversion=2.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-21 11:32:29,553 method:UploadJar.uploadJar(UploadJar.java:68)
+result=========0
+[INFO ] 2019-08-21 11:32:29,557 method:UploadJarToNexus.main(UploadJarToNexus.java:58)
+pomFile:C:\Users\Erik\Desktop\testJar\excalibur-instrument\excalibur-instrument\1.0\excalibur-instrument-1.0.pom groupId:excalibur-instrument ArtifactId:excalibur-instrument Version:1.0
+[INFO ] 2019-08-21 11:32:29,558 method:UploadJar.uploadJar(UploadJar.java:47)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\excalibur-instrument\excalibur-instrument\1.0\excalibur-instrument-1.0.jar -DgroupId=excalibur-instrument -DartifactId=excalibur-instrument -Dversion=1.0 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-21 11:32:34,424 method:UploadJar.uploadJar(UploadJar.java:68)
+result=========0
+[INFO ] 2019-08-21 11:32:34,428 method:UploadJarToNexus.main(UploadJarToNexus.java:58)
+pomFile:C:\Users\Erik\Desktop\testJar\excalibur-instrument\excalibur-instrument-api\2.1\excalibur-instrument-api-2.1.pom groupId:excalibur-instrument ArtifactId:excalibur-instrument-api Version:2.1
+[INFO ] 2019-08-21 11:32:34,428 method:UploadJar.uploadJar(UploadJar.java:47)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\excalibur-instrument\excalibur-instrument-api\2.1\excalibur-instrument-api-2.1.jar -DgroupId=excalibur-instrument -DartifactId=excalibur-instrument-api -Dversion=2.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-21 11:32:39,500 method:UploadJar.uploadJar(UploadJar.java:68)
+result=========0
+[INFO ] 2019-08-21 11:32:39,506 method:UploadJarToNexus.main(UploadJarToNexus.java:58)
+pomFile:C:\Users\Erik\Desktop\testJar\excalibur-instrument\excalibur-instrument-mgr-api\2.1\excalibur-instrument-mgr-api-2.1.pom groupId:excalibur-instrument ArtifactId:excalibur-instrument-mgr-api Version:2.1
+[INFO ] 2019-08-21 11:32:39,507 method:UploadJar.uploadJar(UploadJar.java:47)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\excalibur-instrument\excalibur-instrument-mgr-api\2.1\excalibur-instrument-mgr-api-2.1.jar -DgroupId=excalibur-instrument -DartifactId=excalibur-instrument-mgr-api -Dversion=2.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-21 11:32:44,566 method:UploadJar.uploadJar(UploadJar.java:68)
+result=========0
+[INFO ] 2019-08-21 11:32:44,572 method:UploadJarToNexus.main(UploadJarToNexus.java:58)
+pomFile:C:\Users\Erik\Desktop\testJar\excalibur-instrument\excalibur-instrument-mgr-impl\2.1\excalibur-instrument-mgr-impl-2.1.pom groupId:excalibur-instrument ArtifactId:excalibur-instrument-mgr-impl Version:2.1
+[INFO ] 2019-08-21 11:32:44,572 method:UploadJar.uploadJar(UploadJar.java:47)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\excalibur-instrument\excalibur-instrument-mgr-impl\2.1\excalibur-instrument-mgr-impl-2.1.jar -DgroupId=excalibur-instrument -DartifactId=excalibur-instrument-mgr-impl -Dversion=2.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-21 11:32:49,721 method:UploadJar.uploadJar(UploadJar.java:68)
+result=========0
+[INFO ] 2019-08-21 11:32:49,723 method:UploadJarToNexus.main(UploadJarToNexus.java:58)
+pomFile:C:\Users\Erik\Desktop\testJar\excalibur-logger\excalibur-logger\1.1\excalibur-logger-1.1.pom groupId:excalibur-logger ArtifactId:excalibur-logger Version:1.1
+[INFO ] 2019-08-21 11:32:49,723 method:UploadJar.uploadJar(UploadJar.java:47)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\excalibur-logger\excalibur-logger\1.1\excalibur-logger-1.1.jar -DgroupId=excalibur-logger -DartifactId=excalibur-logger -Dversion=1.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-21 11:32:55,531 method:UploadJar.uploadJar(UploadJar.java:68)
+result=========0
+[INFO ] 2019-08-21 11:32:55,537 method:UploadJarToNexus.main(UploadJarToNexus.java:58)
+pomFile:C:\Users\Erik\Desktop\testJar\excalibur-logger\excalibur-logger\2.1\excalibur-logger-2.1.pom groupId:excalibur-logger ArtifactId:excalibur-logger Version:2.1
+[INFO ] 2019-08-21 11:32:55,537 method:UploadJar.uploadJar(UploadJar.java:47)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\excalibur-logger\excalibur-logger\2.1\excalibur-logger-2.1.jar -DgroupId=excalibur-logger -DartifactId=excalibur-logger -Dversion=2.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-21 11:33:00,857 method:UploadJar.uploadJar(UploadJar.java:68)
+result=========0
+[INFO ] 2019-08-21 11:33:00,858 method:UploadJarToNexus.main(UploadJarToNexus.java:76)
+==========只有 jar 包，没有 pom 文件的列表==========
+[INFO ] 2019-08-21 11:33:00,858 method:UploadJarToNexus.main(UploadJarToNexus.java:81)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-21 11:33:00,858 method:UploadJarToNexus.main(UploadJarToNexus.java:86)
+==========上传 jar 包失败列表==========
+[INFO ] 2019-08-21 11:33:00,859 method:UploadJarToNexus.main(UploadJarToNexus.java:94)
+
+
+ ==========统计信息==========
+ 开始时间 :2019-08-21 11:32:11
+ 结束时间 :2019-08-21 11:33:00
+ 共扫描到 9 个 jar 包
+ 只有 jar 包，没有 pom 文件的有 0 个
+ 解析失败 0 个 pom 文件
+ 上传成功 9 个 jar 包
+ 上传失败 0 个 jar 包
