@@ -1,0 +1,165 @@
+[INFO ] 2019-08-20 15:35:15,426 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.pom groupId:commons-validator ArtifactId:commons-validator Version:1.3.1
+[INFO ] 2019-08-20 15:35:15,442 method:UploadJar.uploadJar(UploadJar.java:33)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar -DgroupId=commons-validator -DartifactId=commons-validator -Dversion=1.3.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 15:35:21,769 method:UploadJarToNexus.main(UploadJarToNexus.java:59)
+==========统计信息==========
+ 开始时间 :2019-08-20 03:35:15
+ 结束时间 :2019-08-20 03:35:21
+ 共扫描到 1 个 pom 文件
+ 解析成功 1 个 pom 文件
+ 解析失败 0 个 pom 文件
+ 上传成功 1 个 jar 包
+ 上传失败 0 个 jar 包
+[INFO ] 2019-08-20 15:35:21,769 method:UploadJarToNexus.main(UploadJarToNexus.java:77)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-20 15:35:21,769 method:UploadJarToNexus.main(UploadJarToNexus.java:82)
+==========上传 jar 包失败列表==========
+[INFO ] 2019-08-20 15:44:31,698 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.1\dom4j-1.1.pom groupId:dom4j ArtifactId:dom4j Version:1.1
+[INFO ] 2019-08-20 15:44:31,698 method:UploadJar.uploadJar(UploadJar.java:34)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.1\dom4j-1.1.jar -DgroupId=dom4j -DartifactId=dom4j -Dversion=1.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 15:44:40,461 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.6.1\dom4j-1.6.1.pom groupId:dom4j ArtifactId:dom4j Version:1.6.1
+[INFO ] 2019-08-20 15:44:40,461 method:UploadJar.uploadJar(UploadJar.java:34)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar -DgroupId=dom4j -DartifactId=dom4j -Dversion=1.6.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 15:44:47,925 method:UploadJarToNexus.main(UploadJarToNexus.java:59)
+==========统计信息==========
+ 开始时间 :2019-08-20 03:44:31
+ 结束时间 :2019-08-20 03:44:47
+ 共扫描到 2 个 pom 文件
+ 解析成功 2 个 pom 文件
+ 解析失败 0 个 pom 文件
+ 上传成功 2 个 jar 包
+ 上传失败 0 个 jar 包
+[INFO ] 2019-08-20 15:44:47,925 method:UploadJarToNexus.main(UploadJarToNexus.java:77)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-20 15:44:47,925 method:UploadJarToNexus.main(UploadJarToNexus.java:82)
+==========上传 jar 包失败列表==========
+[INFO ] 2019-08-20 15:45:15,176 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.1\dom4j-1.1.pom groupId:dom4j ArtifactId:dom4j Version:1.1
+[INFO ] 2019-08-20 15:45:15,192 method:UploadJar.uploadJar(UploadJar.java:34)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.1\dom4j-1.1.jar -DgroupId=dom4j -DartifactId=dom4j -Dversion=1.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 15:45:24,454 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.6.1\dom4j-1.6.1.pom groupId:dom4j ArtifactId:dom4j Version:1.6.1
+[INFO ] 2019-08-20 15:45:24,454 method:UploadJar.uploadJar(UploadJar.java:34)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar -DgroupId=dom4j -DartifactId=dom4j -Dversion=1.6.1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 15:45:31,008 method:UploadJarToNexus.main(UploadJarToNexus.java:59)
+==========统计信息==========
+ 开始时间 :2019-08-20 03:45:14
+ 结束时间 :2019-08-20 03:45:31
+ 共扫描到 2 个 pom 文件
+ 解析成功 2 个 pom 文件
+ 解析失败 0 个 pom 文件
+ 上传成功 2 个 jar 包
+ 上传失败 0 个 jar 包
+[INFO ] 2019-08-20 15:45:31,008 method:UploadJarToNexus.main(UploadJarToNexus.java:77)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-20 15:45:31,008 method:UploadJarToNexus.main(UploadJarToNexus.java:82)
+==========上传 jar 包失败列表==========
+[INFO ] 2019-08-20 16:06:16,633 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\joda-time\2.9.9\joda-time-2.9.9.pom groupId:joda-time ArtifactId:joda-time Version:2.9.9
+[INFO ] 2019-08-20 16:06:16,699 method:UploadJar.uploadJar(UploadJar.java:34)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\joda-time\2.9.9\joda-time-2.9.9.jar -DgroupId=joda-time -DartifactId=joda-time -Dversion=2.9.9 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 16:06:26,873 method:UploadJarToNexus.main(UploadJarToNexus.java:59)
+==========统计信息==========
+ 开始时间 :2019-08-20 04:06:16
+ 结束时间 :2019-08-20 04:06:26
+ 共扫描到 1 个 pom 文件
+ 解析成功 1 个 pom 文件
+ 解析失败 0 个 pom 文件
+ 上传成功 1 个 jar 包
+ 上传失败 0 个 jar 包
+[INFO ] 2019-08-20 16:06:26,874 method:UploadJarToNexus.main(UploadJarToNexus.java:77)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-20 16:06:26,875 method:UploadJarToNexus.main(UploadJarToNexus.java:82)
+==========上传 jar 包失败列表==========
+[INFO ] 2019-08-20 16:26:11,331 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\rome\rome\0.9\rome-0.9.pom groupId:rome ArtifactId:rome Version:0.9
+[INFO ] 2019-08-20 16:26:11,339 method:UploadJar.uploadJar(UploadJar.java:27)
+该操作系统是：Windows 10
+[INFO ] 2019-08-20 16:26:11,339 method:UploadJar.uploadJar(UploadJar.java:45)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\rome\rome\0.9\rome-0.9.jar -DgroupId=rome -DartifactId=rome -Dversion=0.9 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 16:26:19,497 method:UploadJarToNexus.main(UploadJarToNexus.java:59)
+==========统计信息==========
+ 开始时间 :2019-08-20 04:26:11
+ 结束时间 :2019-08-20 04:26:19
+ 共扫描到 1 个 pom 文件
+ 解析成功 1 个 pom 文件
+ 解析失败 0 个 pom 文件
+ 上传成功 1 个 jar 包
+ 上传失败 0 个 jar 包
+[INFO ] 2019-08-20 16:26:19,498 method:UploadJarToNexus.main(UploadJarToNexus.java:77)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-20 16:26:19,498 method:UploadJarToNexus.main(UploadJarToNexus.java:82)
+==========上传 jar 包失败列表==========
+[INFO ] 2019-08-20 16:29:04,976 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\edu\ucar\netcdf\4.2-min\netcdf-4.2-min.pom groupId:edu.ucar ArtifactId:netcdf Version:4.2-min
+[INFO ] 2019-08-20 16:29:04,983 method:UploadJar.uploadJar(UploadJar.java:27)
+该操作系统是：Windows 10
+[INFO ] 2019-08-20 16:29:04,984 method:UploadJar.uploadJar(UploadJar.java:45)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\edu\ucar\netcdf\4.2-min\netcdf-4.2-min.jar -DgroupId=edu.ucar -DartifactId=netcdf -Dversion=4.2-min -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 16:30:23,212 method:UploadJarToNexus.main(UploadJarToNexus.java:42)
+pomFile:C:\Users\Erik\Desktop\testJar\eigenbase\eigenbase-properties\1.1.4\eigenbase-properties-1.1.4.pom groupId:eigenbase ArtifactId:eigenbase-properties Version:1.1.4
+[INFO ] 2019-08-20 16:30:23,213 method:UploadJar.uploadJar(UploadJar.java:27)
+该操作系统是：Windows 10
+[INFO ] 2019-08-20 16:30:23,213 method:UploadJar.uploadJar(UploadJar.java:45)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\eigenbase\eigenbase-properties\1.1.4\eigenbase-properties-1.1.4.jar -DgroupId=eigenbase -DartifactId=eigenbase-properties -Dversion=1.1.4 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 16:30:28,380 method:UploadJarToNexus.main(UploadJarToNexus.java:59)
+==========统计信息==========
+ 开始时间 :2019-08-20 04:29:04
+ 结束时间 :2019-08-20 04:30:28
+ 共扫描到 2 个 pom 文件
+ 解析成功 2 个 pom 文件
+ 解析失败 0 个 pom 文件
+ 上传成功 2 个 jar 包
+ 上传失败 0 个 jar 包
+[INFO ] 2019-08-20 16:30:28,380 method:UploadJarToNexus.main(UploadJarToNexus.java:77)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-20 16:30:28,381 method:UploadJarToNexus.main(UploadJarToNexus.java:82)
+==========上传 jar 包失败列表==========
+[INFO ] 2019-08-20 16:37:15,358 method:UploadJarToNexus.main(UploadJarToNexus.java:41)
+该操作系统是：Windows 10
+[INFO ] 2019-08-20 16:37:15,508 method:UploadJarToNexus.main(UploadJarToNexus.java:46)
+pomFile:C:\Users\Erik\Desktop\testJar\junit-dep\4.10\junit-dep-4.10.pom groupId:junit ArtifactId:junit-dep Version:4.10
+[INFO ] 2019-08-20 16:37:15,511 method:UploadJar.uploadJar(UploadJar.java:41)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\junit-dep\4.10\junit-dep-4.10.jar -DgroupId=junit -DartifactId=junit-dep -Dversion=4.10 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 16:37:20,149 method:UploadJar.uploadJar(UploadJar.java:62)
+result=========1
+[INFO ] 2019-08-20 16:37:20,178 method:UploadJarToNexus.main(UploadJarToNexus.java:46)
+pomFile:C:\Users\Erik\Desktop\testJar\junit-dep\4.11-beta-1\junit-dep-4.11-beta-1.pom groupId:junit ArtifactId:junit-dep Version:4.11-beta-1
+[INFO ] 2019-08-20 16:37:20,179 method:UploadJar.uploadJar(UploadJar.java:41)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\junit-dep\4.11-beta-1\junit-dep-4.11-beta-1.jar -DgroupId=junit -DartifactId=junit-dep -Dversion=4.11-beta-1 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 16:37:23,297 method:UploadJar.uploadJar(UploadJar.java:62)
+result=========1
+[INFO ] 2019-08-20 16:37:23,304 method:UploadJarToNexus.main(UploadJarToNexus.java:46)
+pomFile:C:\Users\Erik\Desktop\testJar\junit-dep\4.11.20120805.1225\junit-dep-4.11.20120805.1225.pom groupId:junit ArtifactId:junit-dep Version:4.11.20120805.1225
+[INFO ] 2019-08-20 16:37:23,305 method:UploadJar.uploadJar(UploadJar.java:41)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\junit-dep\4.11.20120805.1225\junit-dep-4.11.20120805.1225.jar -DgroupId=junit -DartifactId=junit-dep -Dversion=4.11.20120805.1225 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 16:37:26,655 method:UploadJar.uploadJar(UploadJar.java:62)
+result=========1
+[INFO ] 2019-08-20 16:37:26,661 method:UploadJarToNexus.main(UploadJarToNexus.java:46)
+pomFile:C:\Users\Erik\Desktop\testJar\junit-dep\4.9\junit-dep-4.9.pom groupId:junit ArtifactId:junit-dep Version:4.9
+[INFO ] 2019-08-20 16:37:26,662 method:UploadJar.uploadJar(UploadJar.java:41)
+installStr:===========cmd /c mvn deploy:deploy-file -Dfile=C:\Users\Erik\Desktop\testJar\junit-dep\4.9\junit-dep-4.9.jar -DgroupId=junit -DartifactId=junit-dep -Dversion=4.9 -Dpackaging=jar -DrepositoryId=jarUploadTest -Durl=http://10.180.210.148:8088/repository/jarUploadTest/
+[INFO ] 2019-08-20 16:37:33,948 method:UploadJar.uploadJar(UploadJar.java:62)
+result=========0
+[INFO ] 2019-08-20 16:37:33,948 method:UploadJarToNexus.main(UploadJarToNexus.java:65)
+==========统计信息==========
+ 开始时间 :2019-08-20 04:37:15
+ 结束时间 :2019-08-20 04:37:33
+ 共扫描到 4 个 pom 文件
+ 解析成功 4 个 pom 文件
+ 解析失败 0 个 pom 文件
+ 上传成功 1 个 jar 包
+ 上传失败 3 个 jar 包
+[INFO ] 2019-08-20 16:37:33,949 method:UploadJarToNexus.main(UploadJarToNexus.java:83)
+==========解析 pom 文件失败列表==========
+[INFO ] 2019-08-20 16:37:33,949 method:UploadJarToNexus.main(UploadJarToNexus.java:88)
+==========上传 jar 包失败列表==========
+[INFO ] 2019-08-20 16:37:33,951 method:UploadJarToNexus.main(UploadJarToNexus.java:90)
+pomFile:C:\Users\Erik\Desktop\testJar\junit-dep\4.10\junit-dep-4.10.pom groupId:junit ArtifactId:junit-dep Version:4.10
+[INFO ] 2019-08-20 16:37:33,952 method:UploadJarToNexus.main(UploadJarToNexus.java:90)
+pomFile:C:\Users\Erik\Desktop\testJar\junit-dep\4.11-beta-1\junit-dep-4.11-beta-1.pom groupId:junit ArtifactId:junit-dep Version:4.11-beta-1
+[INFO ] 2019-08-20 16:37:33,952 method:UploadJarToNexus.main(UploadJarToNexus.java:90)
+pomFile:C:\Users\Erik\Desktop\testJar\junit-dep\4.11.20120805.1225\junit-dep-4.11.20120805.1225.pom groupId:junit ArtifactId:junit-dep Version:4.11.20120805.1225

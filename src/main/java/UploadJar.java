@@ -3,6 +3,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -15,12 +16,17 @@ public class UploadJar {
 
     private static Logger logger = LoggerFactory.getLogger(UploadJar.class);
 
-    public static boolean uploadJar(String osName, PomInfo pomInfo,String repositoryId, String url){
+    public static boolean uploadJar(String osName, PomInfo pomInfo, String jarFilePath, String repositoryId, String url){
 
         boolean uploadStatus = false;
 
-        String pomFile = pomInfo.getPomFile();
-        String jarFilePath = pomFile.substring(0,pomFile.lastIndexOf("."))+ ".jar";
+//        String pomFile = pomInfo.getPomFile();
+//        String jarFilePath = pomFile.substring(0,pomFile.lastIndexOf("."))+ ".jar";
+//
+//        File jarFile = new File(jarFilePath);
+//        if (!jarFile.exists()){
+//
+//        }
 
         String mvnHead = null;
         if (osName.startsWith("Windows")){
