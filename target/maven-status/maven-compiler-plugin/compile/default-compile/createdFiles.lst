@@ -1,3 +1,4 @@
+utils\CheckStringUtils.class
 utils\FileScanner.class
 UploadJarToNexus.class
 UploadJar.class

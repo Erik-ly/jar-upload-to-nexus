@@ -3,6 +3,7 @@ import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
+import utils.CheckStringUtils;
 
 import java.util.Iterator;
 
@@ -47,7 +48,7 @@ public class AnalyzePom {
                         version = employee.getText();
                     }
 
-                    if (groupId == null || groupId.equals("null") || artifactId == null || artifactId.equals("null") || version == null || version.equals("null")){
+                    if (CheckStringUtils.strIsNull(groupId, artifactId, version)){
 
                         if (employee.getName().equals("parent")) {
 
@@ -75,7 +76,7 @@ public class AnalyzePom {
                 pomInfo.setArtifactId(artifactId);
                 pomInfo.setVersion(version);
 
-                if (groupId == null || groupId.equals("null") || artifactId == null || artifactId.equals("null") || version == null || version.equals("null")){
+                if (CheckStringUtils.strIsNull(groupId, artifactId, version)){
                     pomInfo.setStatus(false);
                 }else {
                     pomInfo.setStatus(true);

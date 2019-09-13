@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jaruploadtonexus" />
+        <module name="jar-upload-to-nexus" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jaruploadtonexus" target="7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

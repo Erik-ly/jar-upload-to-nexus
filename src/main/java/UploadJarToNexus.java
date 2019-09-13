@@ -1,9 +1,8 @@
 import bean.PomInfo;
-import utils.DateUtil;
-import utils.FileScanner;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import utils.DateUtil;
+import utils.FileScanner;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -23,16 +22,13 @@ public class UploadJarToNexus {
         List<PomInfo> jarUploadFailList = new ArrayList<PomInfo>();
         List<PomInfo> analyzePomFailList = new ArrayList<PomInfo>();
         List<String> noPomList = new ArrayList<String>();
+        List<String> jarsList = new ArrayList<String>();
 
         String startTime = DateUtil.getNowDate();
 
-//        String folderPath = "C:\\Users\\Erik\\Desktop\\testJar";
-//        String repositoryId = "jarUploadTest";
-//        String url = "http://10.180.210.148:8088/repository/jarUploadTest/";
-
-        String folderPath = args[0];
-        String repositoryId = args[1];
-        String url = args[2];
+        String folderPath = "C:\\Users\\Erik\\Desktop\\testJar";
+        String repositoryId = "jarUploadTest";
+        String url = "http://10.180.***.***:8088/repository/jarUploadTest/";
 
         //识别操作系统
         String osName = System.getProperty("os.name");
@@ -40,6 +36,7 @@ public class UploadJarToNexus {
 
         //扫描获取 jar 包列表
         List<String> jarFileList = FileScanner.getFiles(folderPath);
+        logger.info("========== 共扫描到 {} 个 jar 包 ==========", jarFileList.size());
 
         for (String jarFile : jarFileList) {
 
@@ -60,6 +57,23 @@ public class UploadJarToNexus {
             //jar 包存在，而且 pom 文件解析成功，则上传 jar 包
             if (pomInfo.isStatus()){
 
+                /**
+                 * 判断该文件夹中的所有jar包
+                 */
+
+                String parentDir = "";
+                if (osName.startsWith("Windows")){
+                    parentDir = jarFile.substring(0,jarFile.lastIndexOf("\\"));
+                }else {
+                    parentDir = jarFile.substring(0,jarFile.lastIndexOf("/"));
+                }
+
+                List<String> jarList = FileScanner.getFiles(parentDir);
+                if (jarList.size() > 1){
+                    logger.info("{} 文件夹中有多个 jar 包", parentDir);
+                    jarsList.add(parentDir);
+                }
+
                 //上传 jar 包
                 boolean uploadJarResult = UploadJar.uploadJar(osName, pomInfo, jarFile, repositoryId, url);
                 if (uploadJarResult){
@@ -67,23 +81,29 @@ public class UploadJarToNexus {
                 }else {
                     jarUploadFailList.add(pomInfo);
                 }
+
             }else {
                 analyzePomFailList.add(pomInfo);
             }
 
         }
 
-        logger.info("==========只有 jar 包，没有 pom 文件的列表==========");
+        logger.info("========== 只有 jar 包，没有 pom 文件的列表 ==========");
         for (String jarFile : noPomList) {
             logger.info("jarFile:{} ", jarFile);
         }
 
-        logger.info("==========解析 pom 文件失败列表==========");
+        logger.info("========== 解析 pom 文件失败列表 ==========");
         for (PomInfo pomInfo : analyzePomFailList) {
             logger.info("pomFile:{} groupId:{} ArtifactId:{} Version:{}", pomInfo.getPomFile(), pomInfo.getGroupId(), pomInfo.getArtifactId(), pomInfo.getVersion());
         }
 
-        logger.info("==========上传 jar 包失败列表==========");
+        logger.info("========== 有多个 jar 包的文件夹列表 ==========");
+        for (String dir : jarsList) {
+            logger.info("Dir:{}", dir);
+        }
+
+        logger.info("========== 上传 jar 包失败列表 ==========");
         for (PomInfo pomInfo : jarUploadFailList) {
             logger.info("pomFile:{} groupId:{} ArtifactId:{} Version:{}", pomInfo.getPomFile(), pomInfo.getGroupId(), pomInfo.getArtifactId(), pomInfo.getVersion());
         }
@@ -91,7 +111,7 @@ public class UploadJarToNexus {
         //统计信息
         String endTime = DateUtil.getNowDate();
 
-        logger.info("\n\n ==========统计信息==========" +
+        logger.info("\n\n ========== 统计信息 ==========" +
                 "\n 开始时间 :" + startTime +
                 "\n 结束时间 :" + endTime +
                 "\n 共扫描到 " + jarFileList.size() + " 个 jar 包" +
